@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
+header{
+    text-align: center;
+    background-color: blue;
+    
+    display: grid;
+    width: 50%;
+    color: bisque;
+    grid-column: 1/2;
+    font-size: larger;
+    
+}
+
+
+h2{
+    font-family: Rock Salt;
+    text-align: left;
+    width: 50%;
+}
+main{
+    text-align: center;
+    font-family: Open Sans;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    color: beige;
+}
+nav{
+    text-align: center;
+    width: 50%;
+    
+}
+img{
+    text-align: left;
+}
