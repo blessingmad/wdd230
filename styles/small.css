@@ -3,7 +3,7 @@
 header{
     text-align: center;
     background-color: blue;
-    
+    justify-content: center;
     display: grid;
     width: 50%;
     color: bisque;
