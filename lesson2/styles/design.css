@@ -1,0 +1,21 @@
+h1{
+    font-family: Roboto;
+    background-color: blue;
+}
+h2{
+    background-color: aquamarine;
+}
+main{
+    font-size: medium;
+    font-style: italic;
+}
+img{
+    background-color: black;
+}
+p{
+    background-color: blueviolet;
+}
+footer{
+    font-style: italic;
+    background-color: blue;
+}
