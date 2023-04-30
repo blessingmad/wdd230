@@ -12,14 +12,17 @@ main{
 }
 img{
     background-color: black;
-    width: 98px;
+    width: 198px;
 }
 p{
     background-color: blueviolet;
-    width: 98px; ;
+    width: 198px; ;
 }
 footer{
     font-style: italic;
     background-color: blue;
     color: white;
+}
+a{
+    width: 198px;
 }
