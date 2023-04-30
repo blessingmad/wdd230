@@ -1,6 +1,7 @@
 h1{
     font-family: Roboto;
     background-color: blue;
+    grid-template-columns: 2;
 }
 h2{
     background-color: aquamarine;
@@ -11,11 +12,14 @@ main{
 }
 img{
     background-color: black;
+    width: 98px;
 }
 p{
     background-color: blueviolet;
+    width: 98px; ;
 }
 footer{
     font-style: italic;
     background-color: blue;
+    color: white;
 }
