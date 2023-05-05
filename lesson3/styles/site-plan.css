@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
+
+header{
+    background-color: blue;
+    display: flex;
+    font-family: Rock Salt;
+    
+}
+nav {
+    display: grid;
+    justify-content: space-around;
+    
+}
+a {
+    color: white;
+}
+h2 {
+    background-color: aqua;
+}
+h1 {
+    color: white;
+}
+footer {
+    background-color: blue;
+    color: white;
+}
+img {
+    justify-content: left;
+}
