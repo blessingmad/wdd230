@@ -11,6 +11,24 @@ header{
     font-size: larger;
     
 }
+/*navigation bar design*/
+/*li a {
+    display: block;
+    width: 60px;
+    /*we can add a background color to show the link area*/
+li a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+li a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: blueviolet;
+    color: white;
+}
+
 
 
 h2{
