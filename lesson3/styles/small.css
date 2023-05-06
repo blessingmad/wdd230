@@ -6,5 +6,8 @@
         font-size: small;
         font-style:normal;
     }
-
+    nav {
+        display: block;
+        width: 60px;
+    }
     }
