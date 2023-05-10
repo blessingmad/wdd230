@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
-
+:root{
+    --primary-color:#150578;
+    --secondary-color:#1CCAD8;
+    --accent1-color:#2f97c1;
+    --accent2-color:white;
+}
 
 header{
     background-color: blue;
@@ -9,7 +14,8 @@ header{
 }
 
 .logo {
-    padding: 50px;
+    width: 100px;
+    padding-bottom: 35px;
 }
 nav {
     display: flex;
