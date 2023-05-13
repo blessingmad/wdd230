@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    background-color: #151578;
+    color:white;
+    text-align: center;
+}
+footer{
+    display: flex;
+    border: 1px;
+    margin: auto;
+    background-color: #151578;
+    color: white;
+
+}
+#social{
+    justify-content: center;
+}
+nav ul li{
+    color: white;
+    text-align: justify;
+}
