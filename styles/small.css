@@ -11,10 +11,7 @@ header{
     font-size: larger;
     
 }
-/*navigation bar design*/
-/*li a {
-    display: block;
-    width: 60px;
+
     /*we can add a background color to show the link area*/
 li a:hover {
     background-color: blueviolet;

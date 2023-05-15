@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+}
+/*li {
+    float: left;
+
+}
+ul a {
+ text-decoration: none;
+ padding: 10px;
+ background-color: #eeee;
+}*/
+li a {
+    display: block;
+    text-decoration: none;
+    background-color: #eeee;
+}
+
+
