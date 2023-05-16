@@ -19,3 +19,20 @@ nav ul li{
     color: white;
     text-align: justify;
 }
+nav ul{
+
+    margin:.2rem 2vw ;
+    background-color: #151578;
+    border-top: none;
+    color: white;
+    font-size: 2rem;
+}
+nav ul.open{
+    display :block;
+
+}
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none ;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
