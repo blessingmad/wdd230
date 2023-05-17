@@ -15,9 +15,22 @@ footer{
 #social{
     justify-content: center;
 }
+li a {
+    display: block;
+    background-color: brown;
+    padding: 9px;
+    margin: 5px;
+    border: 2px;
+}
 nav ul li{
-    color: white;
+    
     text-align: justify;
+    list-style-type: none;
+
+}
+ul  li a {
+    color: white;
+    text-decoration: none;
 }
 nav ul{
 
