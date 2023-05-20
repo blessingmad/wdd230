@@ -1,6 +1,11 @@
 @media only screen and (min-width:64rem){
 header{
     padding: 1px;
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 
