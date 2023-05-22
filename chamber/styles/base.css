@@ -114,7 +114,7 @@ main {
     height: auto;
     border-radius: 320px;
     margin-left: 10px;
-    box-shadow: 0 0 30ps solid #0000;
+    box-shadow: 0 0 30px solid #0000;
 }
 .weather-card {
     padding: 10px;
