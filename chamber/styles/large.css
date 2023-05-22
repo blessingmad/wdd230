@@ -1,6 +1,10 @@
 @media only screen and (min-width:64rem){
 header{
-    padding: 1px;
+    padding: 40px 20px;
+}
+
+header, footer{
+    max-width: 100%;
 
 }
 main {
