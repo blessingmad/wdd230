@@ -49,3 +49,26 @@ nav ul.open{
 
 #hamburgerBtn.open span:nth-child(1) {display:none ;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
+#footer1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#footer1 p{
+    padding: 6px;
+    text-align: center;
+}
+#footer2 {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border-color: aqua;
+    background-color: blue;
+    color: white;
+}
+.weather-card {
+    padding: 10px;
+    margin: 5px;
+    background-color: #eee;
+}
