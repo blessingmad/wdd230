@@ -1,94 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
 
-
+/* header css */
 header{
     font-family: Rock Salt;
     display: flex;
     background-color: #151578;
     color:white;
     text-align: center;
-}
-footer{
-    display: flex;
-    border: 1px;
-    margin: auto;
-    background-color: #151578;
-    color: white;
-
-}
-.social{
-    margin-top: auto;
-    margin-right: 10px;
-    margin-bottom: auto;
-}
-.fb {
-    width: 202px;
-    height: auto;
-    border-radius: 360px;
-    margin-top: 10px;
-}
-.insta{
-    width: 202px;
-    height: auto;
-    border-radius: 360px;
-    margin-top: 10px;
-    align-items: end;
-}
-li a {
-    display: block;
-    background-color: brown;
-    padding: 9px;
-    margin: 5px;
-    border: 2px;
-}
-nav ul li{
-    
-    text-align: justify;
-    list-style-type: none;
-
-}
-ul  li a {
-    color: white;
-    text-decoration: none;
-}
-nav ul{
-
-    margin:.2rem 2vw ;
-    background-color: #151578;
-    border-top: none;
-    color: white;
-    font-size: 2rem;
-}
-.page-heading {
-    display: flex;
-    flex-direction: column;
-}
-nav ul.open{
-    display :inline;
-
-}
-#hamburgerBtn span:nth-child(1) {display: block;}
-#hamburgerBtn span:nth-child(2) {display: none;}
-
-#hamburgerBtn.open span:nth-child(1) {display:none ;}
-#hamburgerBtn.open span:nth-child(2) {display: block;}
-#footer1 {
-    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #151578;
+    max-width: 900px;
+    justify-content: space-between;
+    padding: 5px 0;
     align-items: center;
-    flex-direction: column;
-}
-main {
-    display: none;
-    max-width: 700px;
-    
-}
-
-#footer1 p{
-    padding: 6px;
-    text-align: center; 
-    padding: 8px;
-    margin: 5px;
-
 }
 #header-logo{
     width: 210px;
@@ -96,27 +20,41 @@ main {
     border-radius: 306px;
     margin-left: 10px;
 }
-.contact-info {
-    text-align:justify;
+.social{
+    margin-top: auto;
+    margin-right: 10px;
+    margin-bottom: auto;
 }
-#footer2 {
-    display: block;
-    text-align: center;
-    padding: 8px;
-    margin: 5px;
-    
-    background-color: blue;
-    color: white;
-}
-.footer-logo {
-    display: block;
-    width: 150px;
+
+.tw {
+    width: 82px;
     height: auto;
-    border-radius: 320px;
-    margin-left: 10px;
-    box-shadow: 0 0 30px solid #0000;
+    border-radius: 200px;
+    margin-top: 10px;
 }
-.weather-card {
+.insta{
+    width: 82px;
+    height: auto;
+    border-radius: 200px;
+    margin-top: 10px;
+    align-items: end;
+}
+
+/* main or and body css --------------------------------------------------------*/
+body {
+    font-family: Robotto;
+    display: grid;
+}
+.page-heading {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: none;
+    max-width: 700px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}.weather-card {
     padding: 10px;
     margin: 5px;
     background-color: #eee;
@@ -130,6 +68,9 @@ main {
 .hero-img{
     width: 100%;
     height: auto;
+    margin: 1.5rem;
+    border: 1px solid #bbb;
+    padding: 1.75rem 1rem;
 }
 .invite {
     position: absolute;
@@ -137,16 +78,143 @@ main {
 }
 .temp {
     padding: 5px;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
 }
 #news-card {
     border: #151578;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
 }
 .news-card h2 {
     font-style: italic;
 }
 .news-card p {
     font-size: x-large;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
 }
-body {
-    font-family: Robotto;
+.event {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
 }
+.spot1 {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
+}
+.spot2 {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
+}
+
+/* ------------------------footer css-------------------------------*/
+footer{
+    display: flex;
+    border: 1px;
+    margin: auto;
+    background-color: #151578;
+    color: white;
+
+}
+#footer1 {
+    padding: 6px;
+    text-align: center; 
+    padding: 8px;
+    margin: 5px;
+
+}.contact-info {
+    text-align:justify;
+}
+#footer2 {
+    display: inline;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    
+    background-color: blue;
+    color: white;
+}
+.footer-logo {
+    display: inline;
+    width: 150px;
+    height: auto;
+    border-radius: 320px;
+    margin-left: 10px;
+    box-shadow: 0 0 30px solid #0000;
+
+}
+#footer1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* navigation css */
+
+nav {
+    max-width: 700px;
+    margin: 10px auto;
+}
+#hamButton {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: .5rem;
+    
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    padding: 1.15rem ;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.navigation li a:hover {
+    background-color: #bbbbbb;
+    font-weight: 700;
+}
+.navigation.responsive li a {
+    display: block;
+}
+/*-------------------date on the header-----------*/
+
+
+#time {
+    text-align: center;
+    background-color: #eee;
+    color: black;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,10 +9,17 @@ header, footer{
 }
 main {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-
-
-
+#hamButton {
+    display: none;
+}
+.navigation {
+    flex-direction: row;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 auto;
+}
 }
 

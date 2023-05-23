@@ -1,21 +1,28 @@
 const currentDate = Date();
 document.querySelector("#lastModified").innerHTML = currentDate;
 
+const hamButton = document.querySelector('#hamButton');
+const navigation = document.querySelector('.navigation');
+
+hamButton.addEventListener('click', () => {
+	navigation.classList.toggle('responsive');
+});
+// select the DOM elements to manipulate (we will output to these)
+const datefield = document.querySelector("time");
 
 
-function toggleMenu(){
-    document.getElementById("primaryNav").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
-}
-
-const x = document.getElementById("hamburgerBtn");
-x.onclick = toggleMenu;
+// derive the current date using a date object
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
 
 
-const date = new Date();
-const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
-const formattedDate = date.toLocaleDateString("en-US", options);
+datefield.textContent = fulldate;
 
-document.getElementById("datetime").innerHTML = formattedDate;
+
+
+
+
 
 

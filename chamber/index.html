@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Champer</title>
+    <title>Chamber</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
-        <picture>
+        <div>
             <img id="header-logo" src="images/logo.jpg" alt="Site-logo">
-        </picture>
-        <section class="page-heading">
+        </div>
+        <div class="page-heading">
             <h1>Soshanguve Chamber of Commerce</h1>
-        </section>
+        </div>
         <div class="social">
         <!--<span id="year"></span>-->
             <a href="https://twitter.com" target="_blank">
-                <img class="fb" src="images/twitter.png" alt="twitter icon">
+                <img class="tw" src="images/twitter.png" alt="twitter icon">
             </a>
             <a href="https://instagram.com" target="_blank">
                 <img class="insta"  src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
-        <div class="dateAndTime"></div>
+        
+        
         <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            <ul id="primaryNav">
-                <li class="active"><a href="discover.html">Discover</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="join.html">Join Us</a></li>
-                <li><a href="feed.html">Feedback</a></li>
+    <button id="hamButton">&#9776;<span>X</span></button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="feed.html">About Us</a></li>
             </ul>
         </nav>
+        
     </header>
-    
+    <div id="time">
+        <time></time></div>
     <main>
         <div class="container">
             <div class="hero-img">
@@ -69,6 +73,26 @@
                 </p>
 
             </div>
+            <div class="event">
+                <h2>Event</h2>
+                <p>
+                    ndcsv/sn d d,d .
+                </p>
+
+            </div>
+            <div class="spot1">
+                <h2>Spot1</h2>
+                <p> 
+                    jv'kvk dd dd
+                </p>
+
+            </div>
+            <div class="spot2">
+                <h2>Spot2</h2>
+                <p>
+                    wwdc;skcss s 
+                </p>
+            </div>
 
 
         </div>
@@ -79,11 +103,12 @@
         <picture>
             <img class="footer-logo" src="images/logo.jpg" alt="company logo">
         </picture>
-        <section class="contact-info">
+        <div class="contact-info">
             <h5>Soshanguve</h5>
             <h5>Chamber of Commerce</h5>
             <p>Contact|011 020 1881 </p>
-        </section>
+            <a href="https://vymaps.com/ZA/Soshanguve-Crossing-Mall-587649/#:~:text=You%20can%20use%20the%20Google%20Maps%20navigation%20app%3A,the%20Soshanguve%20Crossing%20Mall%3F%20Latitude%3A%20-25.550165%20Longitude%3A%2028.089727">Location</a>
+        </div>
     </footer>    
     <div id="footer2">    
         <p></p>&copy;2023 | Soshanguve Chamber of Commerce | Blessing Madhuma | Last Updated: <span id="lastModified"></span>
