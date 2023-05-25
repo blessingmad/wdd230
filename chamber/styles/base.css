@@ -44,7 +44,7 @@ header{
 /* main or and body css --------------------------------------------------------*/
 body {
     font-family: Robotto;
-    display: flex;
+    display: grid;
 }
 .page-heading {
     display: flex;
