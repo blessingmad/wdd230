@@ -51,10 +51,9 @@ body {
     flex-direction: column;
 }
 main {
-    
+    grid-template-columns: 1fr 1fr 1fr;
     max-width: 700px;
-   
-    background-color:#0000;
+    
     
 }.weather-card {
     padding: 10px;
@@ -65,9 +64,7 @@ main {
 }
 .container {
     display:grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    margin: 0 auto;
-    
+
  
 }
 .home-msg {
@@ -97,7 +94,8 @@ main {
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
     background-color: aquamarine;
-    grid-column: 1/4;
+    grid-column: 1/4; 
+    
 }
 .news-card h2 {
     font-style: italic;
@@ -119,9 +117,13 @@ main {
     margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
-    background-color: antiquewhite;
+    background-color: antiquewhite; 
+       
     grid-column: 1/3;
     grid-row: 1/3;
+
+
+   
 }
 .spot2 {
     margin: 0.5rem;
@@ -149,7 +151,7 @@ footer{
 
 }
 #footer1 {
-    padding: 6px;
+    
     text-align: center; 
     padding: 8px;
     margin: 5px;
@@ -158,7 +160,7 @@ footer{
     text-align:justify;
 }
 #footer2 {
-    display: inline;
+    
     text-align: center;
     padding: 8px;
     margin: 5px;
@@ -167,7 +169,7 @@ footer{
     color: white;
 }
 .footer-logo {
-    display: inline;
+    
     width: 150px;
     height: auto;
     border-radius: 320px;
@@ -179,6 +181,7 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+   
 
 }
 #map, #location{
