@@ -46,13 +46,23 @@
     <main>
         <div class="container">
             <div class="hero-img">
-                <img src="images/webimg.webp" alt="Hero Image">
+                <picture>
+                    <source media="(min-width:800px)" srcset="images/webimg.webp/800/200 1x">
+                    <source media="(600px)" srcset="images/webimg.webp/600/300 1x">
+
+                    <img src="images/webimg.webp" width="640" height="360" alt="Hero Image" width="300" height="300">
+                </picture>
+                <div>Ratio: <span>Small 1:1</span> | <span>Medium: 2:1</span> | <span>Large: 4:1</span> </div>
                 <h2 class="home-msg">Welcome To Soshanguve</h2>
                 <a class="invite" href="#">Join The Chamber</a>
             </div>
         <div  class="weather-card">
                 <h2>weather in</h2>
                 <h2 class="temp">°C</h2>
+                <p>Wind Speed</p>
+                <p>Wind Chill</p>
+                <p> <span id="wind-speed">**</span></p>
+                <p> <span id="windchill">N/A </span></p>
                 <div class="flex">
                     <img src="http://openweathermap.org/img/wn/04.png" alt="" class="icon">
                     <div class="discription"></div>
@@ -127,5 +137,6 @@
         <a id="map" href="site-map.html">Site Map</a>
     </div>
   <script src="scripts/chamber.js"></script> 
+  <script src="scripts/windchill.js"></script>
 </body>
 </html>
