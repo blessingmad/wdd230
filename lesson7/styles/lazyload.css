@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: block;
+}
+img {
+    min-width: 50px;
+    min-height: none;
+    border: 1px solid red;
+}
