@@ -64,14 +64,18 @@ main {
     
     
 }.weather-card {
-    background-color: aqua;
-    grid-column: 2/4;
-    grid-row: 3/4;
+    background-color: antiquewhite;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
+    grid-column: 1/1;
+    grid-row: 1/6;
 }
 .container {
-    display:grid;
+   
     grid-template-columns: 1fr ;
-    background-color: aqua;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
 
 }
 .home-msg {
@@ -85,12 +89,13 @@ main {
 }
 .hero-img{
     
-    height: auto;
-    margin: 1.5rem;
-    border: 1px solid #bbb;
-    padding: 1.75rem 1rem;
+
     grid-row: 2/3;
     grid-column: 3/3;
+    background-color: antiquewhite;
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.75rem 1rem;
     /*position: relative;
     z-index: 0;*/
 }
@@ -101,25 +106,16 @@ main {
 }
 
 
-#news-card {
-    border: #151578;
-    margin: 0.5rem;
+.ribbon {
+    grid-column: 2/2;
+    grid-row: 2/1;
+     margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
-    background-color: aquamarine;
-     
-    
+    background-color: antiquewhite;
+
 }
-.news-card h2 {
-    font-style: italic;
-}
-.news-card p {
-    font-size: x-large;
-    margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0.75rem 1rem;
-    background-color: brown;
-}
+
 .event {
     margin: 0.5rem;
     border: 1px solid #bbb;
@@ -131,27 +127,21 @@ main {
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
     background-color: antiquewhite; 
-       
-   ;
+    
 
 
    
 }
 .spot2 {
-    margin: 0.5rem;
+    grid-column: 6/1;
+    grid-row: 6/6;
+    background-color: antiquewhite; margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
-    background-image: -moz-linear-gradient(ewe);
-    background-color: #151578; 
-    
-    grid-row: 1/3;
+
   
 }
-.spot2, #p {
-    color: white;
-    color: rgb(214, 255, 80);
 
-}
 
 /* ------------------------footer css-------------------------------*/
 footer{
