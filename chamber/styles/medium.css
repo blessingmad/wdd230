@@ -1,4 +1,4 @@
-/*@media only screen and (min-width: 55rem){
+@media only screen and (min-width: 55rem){
 
 header{
     display: flex;
@@ -52,5 +52,14 @@ main {
     grid-column: 1/4;
     grid-row: 4/1;
 }
-
-}*/
+#time {
+    text-align: center;
+    color: white;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-family: Robboto;
+    background-color: yellowgreen;
+}
+}

@@ -92,7 +92,7 @@ main {
 
     grid-row: 2/3;
     grid-column: 3/3;
-    background-color: antiquewhite;
+    background-color: red;
     margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
@@ -229,6 +229,10 @@ nav {
 .navigation li a:hover {
     background-color: #bbbbbb;
     font-weight: 700;
+}
+.navigation.responsive li {
+    display: block;
+    width: 100%;
 }
 .navigation.responsive li a {
     display: block;
