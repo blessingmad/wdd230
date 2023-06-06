@@ -1,8 +1,12 @@
 html {
     font-family: 'Lucida Sans';
 }
+body {
+    justify-content: center;
+}
 table {
     border: 2px solid rgb(200, 200, 200);
+
 }
 td {
     padding: 10px 20px;
@@ -24,4 +28,7 @@ thead {
 }
 tbody {
     font-style: normal;
+}
+.checkmark {
+    display: inline-block;
 }
