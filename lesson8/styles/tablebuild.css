@@ -18,3 +18,10 @@ caption {
     padding: 10px;
     background-color: blue;
 }
+thead {
+    font-style: italic;
+    color: white;
+}
+tbody {
+    font-style: normal;
+}
