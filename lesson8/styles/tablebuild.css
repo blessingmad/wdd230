@@ -20,7 +20,7 @@ tr:nth-child(odd) td {
 }
 caption {
     padding: 10px;
-    background-color: blue;
+   
 }
 thead {
     font-style: italic;
