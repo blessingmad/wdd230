@@ -1,18 +1,21 @@
+
+@media only screen and (min-width:34rem) { 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
 
 /* header css */
 header{
-    font-family: Rock Salt;
-    display: flex;
-    background-color: #151578;
-    color:white;
-    text-align: center;
-    margin: 0 auto;
-    border-bottom: 1px solid #151578;
-    max-width: 900px;
-    justify-content: space-between;
-    padding: 5px 0;
-    align-items: center;
+
+font-family: Rock Salt;
+display: flex;
+background-color: #151578;
+color:white;
+text-align: center;
+margin: 0 auto;
+border-bottom: 1px solid #151578;
+max-width: 900px;
+justify-content: space-between;
+padding: 5px 0;
+align-items: center;
 }
 #header-logo{
     width: 210px;
@@ -250,7 +253,7 @@ nav {
     font-family: Robboto;
     background-color: yellowgreen;
 }
-
+}
 
 
 
