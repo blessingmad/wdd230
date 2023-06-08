@@ -29,9 +29,45 @@
 
     </nav>
 </header>
+    <h1>Jioning Form</h1>
+    
+    <form action="my-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="user_name"/>
 
-    <p> 
-         <h1>PAGE</h1>
-    </p>
+            </li>
+            <li>
+            <label for="mail">Enter email address:</label>
+            <input type="text" id="mail" name="user_email"/>
+           </li>
+           <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg"name="user_message"></textarea>
+           </li>
+           <li class="button">
+                <button type="submit">Send your message</button>
+           </li>
+        </ul>
+        
+    </form>
+    <footer id="footer1">
+        <picture>
+            <img class="footer-logo" src="images/logo.jpg" alt="company logo">
+        </picture>
+        <div class="contact-info">
+            <h3>Soshanguve</h3>
+            <h3>Chamber of Commerce</h3>
+            <p>Contact|011 020 1881 </p>
+            <a id="location" href="https://vymaps.com/ZA/Soshanguve-Crossing-Mall-587649/#:~:text=You%20can%20use%20the%20Google%20Maps%20navigation%20app%3A,the%20Soshanguve%20Crossing%20Mall%3F%20Latitude%3A%20-25.550165%20Longitude%3A%2028.089727">Location</a>
+        </div>
+    </footer>    
+    <div id="footer2">    
+        <p></p>&copy;2023 | Soshanguve Chamber of Commerce | Blessing Madhuma | Last Updated: <span id="lastModified"></span>
+        <a id="map" href="site-map.html">Site Map</a>
+    </div>
+  <script src="scripts/chamber.js"></script>
+
 </body>
 </html>
