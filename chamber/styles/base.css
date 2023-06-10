@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
 
 /* header css */
+*{
+    margin:  5px;
+}
 header{
 
 font-family: Rock Salt;
@@ -53,37 +56,50 @@ align-items: center;
 
 
 /* main or and body css --------------------------------------------------------*/
+.container {
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 1fr;
+}
 body {
     font-family: Robotto;
-    display: grid;
+    /*display: grid;*/
 }
 .page-heading {
     display: flex;
     flex-direction: column;
 }
-main {
-    margin: 0 auto;
-   
-    
-    
-}.weather-card {
-    background-color: antiquewhite;
+main div {
+    border: 5px;
+    border-radius: 8px;
+    margin: 8px 8px;   
+}
+.event {
+    height: 12rem;
     margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
-    grid-column: 1/1;
-    grid-row: 1/6;
-}
-.container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr ;
-    
-  
+    background-color: antiquewhite;
+
 
 }
+.weather-card {
+    background-color: antiquewhite;
+    border: 1px solid #bbb;
+    display: grid;
+    padding: 0.75rem 1rem;
+    grid-template-columns: repeat(4,1fr);
+    height: 12rem;
+}
+.weather-icon {
+    grid-column: 1/2;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
 .home-msg {
-    position: relative;
-    color: white;
+    border: 1px #bbb;
+    color: rgb(26, 26, 90);
     margin: 12px 8px;
     display: flex;
     justify-content: space-between;
@@ -119,18 +135,13 @@ main {
 
 }
 
-.event {
-    margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0.75rem 1rem;
-    background-color: antiquewhite;
-}
+
 .news {
     margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0.75rem 1rem;
     background-color: antiquewhite; 
-    
+    box-shadow: 10px 10px 10px 10px;
 
 
    
@@ -254,6 +265,12 @@ nav {
     background-color: yellowgreen;
 }
 /*.......................joining form css.............*/
+.form-box {
+    padding: 0,5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     text-align: center;
 }

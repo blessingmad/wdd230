@@ -29,18 +29,36 @@
 
         </nav>
     </header>
-    <h1>Discover</h1>
+    
     <main>
+        <h1 class="discover-pg">Discover</h1>
+        <hr>
         <div id="discover">
-            <picture>
-                <source media="(min-width: 800px)" srcset="images/">
-            </picture>
-            <img src="images/Art Center (1).jpg" alt="A man admiring paiting">
-            <img src="images/chef (1).jpg" alt="">
-            <img src="images/metro-bus (1).jpg" alt="">
-            <img src="images/parking-lot (1).jpg" alt="">
-            <img src="images/restaurant (1).jpg" alt="">
+            <div id="art-center">
+                <h2 id="place"> Art Center</h2>
+                <img src="images/placeholder.webp" data-src="images/Art Center (1).jpg" alt="A man admiring paiting">
+                
+            </div>
+            <div id="metro-bus">
+                <h2 id="bus">Bus Station</h2>
+                <img src="images/placeholder.webp" data-src="images/metro-bus (1).jpg" alt="Metro Bus">
 
+            </div>
+            <div id="chef">
+                <h2 id="local-food">Eating Place</h2>
+                <img src="images/placeholder.webp" data-src="images/chef (1).jpg" alt="Uncle Droo">
+
+            </div>
+            <div id="park">
+                <h2 id="park-space">Parking Lot</h2>
+                <img src="images/placeholder.webp"data-src="images/parking-lot (1).jpg" alt="Car Park">
+
+            </div>
+            <div id="rest">
+                <h2 id="fast-food">Restaurant</h2>
+                 <img src="images/placeholder.webp".data-src="images/restaurant (1).jpg" alt="Restaurant">
+
+            </div>   
         </div>
     </main>
     
@@ -61,5 +79,6 @@
     </div>
   <script src="scripts/chamber.js"></script> 
   <script src="scripts/windchill.js"></script>
+  <script src="scripts/lazy.js"></script>
 </body>
 </html>

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="discriotion" content="Form for joining the chamber of commerce
+    and the benefits for doing that">
+    <title>Join The Chamber</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -25,30 +27,51 @@
         <a href="discover.html">Discover</a>
         <a href="contact.html">Contact Us</a>
         <a href="join.html">Join Us</a>
-        <a href="feed.html">Feedback</a>
+        <a href="thankyou.html">Feedback</a>
 
     </nav>
 </header>
     <h1>Jioning Form</h1>
     
-    <form action="my-form-page" method="post">
+    <form action="thankyou.html" method="get">
         <ul>
-            <li>
+            <li class="form-box">
                 <label for="name">First Name:</label>
-                <input type="text" id="name" name="user_name"/>
+                <input type="text" id="name" name="user_name"required>
 
             </li>
-            <li>
+            <li class="form-box">
             <label for="mail">Enter email address:</label>
-            <input type="text" id="mail" name="user_email"/>
+            <input type="text" id="mail" name="user_email" required>
            </li>
-           <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg"name="user_message"></textarea>
+           <li class="form-box">
+           <label for="positionTitle">Position Title:</label>
+           <input type=" text" id="positionTitle" name="positionTitle">
            </li>
+           <li class="form-box">
+            <label for="cellPhone">Cell Phone:</label>
+            <input type="tel" id="cellPhone" name="cellPhone" required>
+           </li>
+           <li class="form-box">
+            <label for="membershipLevel">Membership Levels</label>
+            <select id="membershipLevel" name="membershipLevel">
+                <option value="NP">NP Membership (Non-profit organizations)</option>
+                <option value="Bronze">Bronce Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+            </select>
+            </li>
+            <li class="form-box">
+            <label for="bussinessDescription">Bussiness Description:</label>
+            <textarea id="bussinessDescription"name="user_message"></textarea>
+           </li>
+
+           <input type="hidden" name="formLoadTime" value="">
+
            <li class="button">
                 <button type="submit">Send your message</button>
            </li>
+           
         </ul>
         
     </form>
