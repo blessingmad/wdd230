@@ -1,10 +1,27 @@
 body {
     margin: 0;
     overflow: hidden;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 img {
     min-width: 50px;
     min-height: none;
     border: 1px solid red;
+}
+#one {
+    grid-row: 1/1;
+}
+#two {
+    
+    grid-row: 2/2;
+}
+#three{
+    grid-row: 3/3;
+}
+#four {
+    grid-row: 4/4;
+}
+#five {
+    grid-row: 5/5;
 }
