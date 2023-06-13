@@ -192,7 +192,7 @@ footer{
     height: auto;
     border-radius: 320px;
     margin-left: 10px;
-    box-shadow: 0 0 30px solid #0000;
+    
 
 }
 #footer1 {
@@ -268,7 +268,7 @@ nav {
 }
 /*.......................joining form css.............*/
 .form-box {
-    padding: 0,5rem 0;
+    padding: 1rem 0;
     display: flex;
     flex-direction: column;
 }
@@ -286,7 +286,7 @@ form {
 }
 ul {
     list-style: none;
-    padding: o auto;
+    padding: 0 auto;
     margin: 0;
 }
 form li + li {
@@ -298,7 +298,7 @@ label {
     text-align: center;
 }
 input, textarea {
-    font-family: 1em sans-serif;
+    font-family: sans-serif;
     width: 300px;
 }
 
