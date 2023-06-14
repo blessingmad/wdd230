@@ -6,44 +6,38 @@
 *{
     margin:  5px;
 }
+header, main, footer {
+    max-width: 560px;
+
+}
 header{
 
 font-family: Rock Salt;
 display: flex;
 background-color: #151578;
 color:white;
-text-align: center;
-margin: 0 auto;
-border-bottom: 1px solid #151578;
-max-width: 900px;
-justify-content: space-between;
+justify-content: center;
 padding: 5px 0;
-align-items: center;
+align-items: center; 
 }
 #header-logo{
-    width: 210px;
+    width: 100px;
     height: auto;
     border-radius: 306px;
-    margin-left: 10px;
+    
 }
+
 .social{
-    margin-top: auto;
-    margin-right: 10px;
-    margin-bottom: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    display: block; 
+    margin-bottom: auto;  
 }
 
 .tw, .insta {
-
-    width: 82px;
+    width: 40px;
     height: auto;
     border-radius: 200px;
     margin-top: 10px;
-    gap: 20px;
-   
-
+    gap: 5px;
 }
 #banner {
     transition: .3s;
@@ -66,8 +60,7 @@ body {
     /*display: grid;*/
 }
 .page-heading {
-    display: flex;
-    flex-direction: column;
+    font-size: smaller;
 }
 main div {
     border: 5px;
@@ -99,33 +92,23 @@ main div {
 }
 
 .home-msg {
-    border: 1px #bbb;
-    color: rgb(26, 26, 90);
-    margin: 12px 8px;
-    display: flex;
-    justify-content: space-between;
-    padding: 6px;
-    box-sizing: border-box;
+   font-size: small;
+    
+    
 }
-.hero-img{
-    
 
-    grid-row: 1/1;
-    
-    background-color: red;
-    margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0.75rem 1rem;
-    height: 100%;
+.hero-img img {
+    /* background-color: red; */
+
+    height: auto;
     width: 100%;
 }
+
 .invite {
     text-decoration: none;
     border-radius: 60px;
     background-color: #e9dc4d;
 }
-
-
 .ribbon {
     grid-row: 2/2;
    
@@ -209,24 +192,19 @@ footer{
 
 /* navigation css */
 
-nav {
-    max-width: 700px;
-    margin: 10px auto;
-}
+
 #hamButton {
-    display: block;
-    position: absolute;
+    list-style: none;  
+      position: absolute;
     top: 10px;
     right: 10px;
-    width: fit-content;
+    width: 5px;
     font-size: 1.5rem;
-    padding: .5rem;
+    padding: .5rem; 
     
 }
 .navigation {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
+   padding: 10px;
 
 }
 .navigation li {
