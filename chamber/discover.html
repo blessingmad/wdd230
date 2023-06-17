@@ -5,28 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" alt="Company logo">
-        <h1>Chamber of Commerce</h1>
-        <span id="year"></span>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
-        </a>
-
+        <div id="banner">
+        <p>Come join us for the chamber, meetand greet Wednesday at 7.00 p.m</p>
+        </div>
+        <div class="header1"> 
+            <div class="hero">
+            <img id="header-logo" src="images/logo.jpg" alt="Site-logo">
+        </div>
+        <div class="page-heading">
+            <h1>Soshanguve Chamber of Commerce</h1>
+            
+        </div>
+        </div>
+      
+        <div class="social">
+        <!--<span id="year"></span>-->
+            <a href="https://twitter.com" target="_blank">
+                <img class="tw" src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img class="insta"  src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        
+        
         <nav>
-            <a href="discover.html">Discover</a>
-            <a href="contact.html">Contact Us</a>
-            <a href="join.html">Join Us</a>
-            <a href="feed.html">Feedback</a>
-
+    <button id="hamButton">&#9776;</button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                
+                <li><a href="thankyou.html">Feedback</a></li>
+                <li><a href="directory.html">Directory</a></li>
+            </ul>
+        
+           <div id="time">
+                <time></time>
+          </div>
         </nav>
     </header>
     
