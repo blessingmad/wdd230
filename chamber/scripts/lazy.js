@@ -1,4 +1,4 @@
-const imagesToLoad = document.querrySelectorAll("img[data-src]")
+const imagesToLoad = document.querySelectorAll("img[data-src]")
 const options = {}
 
 const lazyLoadingimages = (img) => {
@@ -20,7 +20,7 @@ if ("IntersectionObserver" in window) {
    })   
 }
 else {
-    imagesToLoad .forEach((img) => {
+    imagesToLoad.forEach((img) => {
         lazyLoadingimages(img)
     })
 }
