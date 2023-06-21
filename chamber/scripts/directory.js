@@ -1,0 +1,1 @@
+const url = "https://blessingmad.github.io/wdd230/chamber/scripts/directory.json"
