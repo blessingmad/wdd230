@@ -8,26 +8,27 @@ fetch(url)
         const contacts = jsonData["contacts"];
         const cards = document.querySelector("div.cards");
 
-        prophets.forEach((contact) => {
+        contacts.forEach((contact) => {
         let card = document.createElement('section');
-        let h2 =document.createElement('h2');
-        //let dateOfBirth = document.createElement('p');
-        //let placeOfBirth = document.createElement('p');
+        //let h2 =document.createElement('h2');
+        let name1 = document.querySelector('h2');
+        let iconurl = document.createElement('img');
+        let homeurl = document.createElement('p');
 
-        //let portrait = document.createElement('img');
 
-        h2.textContent = `${contact.name} ${contact.iconurl}`;
-        
+
+        //h2.textContent = `${contact.name1} `;
+
+        name1.textContent = `Company Name: ${contact.name1}`;
+        iconurl.textContent = `Logo: ${contact.iconurl}`;
+        homeurl = textContent = `Home Page: ${contact.homeurl}`
         card.setAttribute('src', contacts.card);
-        //portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname}`);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
-
-        // append the section(card) with the created elements
-        card.appendChild(h2);  
+       // append the section(card) with the created elements
+        //card.appendChild(h2);
+        card.appendChild(name1);
+        card.appendChild(homeurl); 
         card.appendChild(iconurl);
-        card.appendChild(card);
+        
     
         cards.appendChild(card)
     });

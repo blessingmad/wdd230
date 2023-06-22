@@ -4,43 +4,43 @@
         {
             "name1": "SASOL",
             "iconurl": "https://www.sasol.com/sites/default/files/sasol-new-logo_0.png",
-            "card" : "https://www.sasol.com/"
+            "homeurl" : "https://www.sasol.com/"
         },
         {
             "name1": "EDGARS",
             "iconurl": "https://www.edgars.co.za/media/logo/websites/1/logo_1.png",
-            "card": "https://www.edgars.co.za/"
+            "homeurl": "https://www.edgars.co.za/"
             
         },
         {
             "name1": "Dr Lebogang Motlalepule Masilela",
             "iconurl": "https://www.medpages.info/sf/website/mpweb2/images/medpages-logo.png",
-            "card": "https://www.medpages.info/sf/index.php?page=person&personcode=141335"
+            "homeurl": "https://www.medpages.info/sf/index.php?page=person&personcode=141335"
         },
         {
             "name1": "KFC",
             "iconurl": "https://locations.kfc.com/permanent-b0b701/assets/images/Cart.c60fae29.svg",
-            "card": "https://locations.kfc.com/"
+            "homeurl": "https://locations.kfc.com/"
         },
         {
             "name1": "EVERY SMILE DENTISTRY",
             "iconurl": "https://everysmile.co.za/wp-content/uploads/2022/11/Every-Smile-Dentistry-Logo-2.webp",
-            "card" : "https://everysmile.co.za/dentist-soshanguve/"
+            "homeurl" : "https://everysmile.co.za/dentist-soshanguve/"
         },
         {
             "name1": "Cashbuild",
             "iconurl": "https://www.cashbuild.co.za/images/logo.png",
-            "card": "https://www.cashbuild.co.za/"
+            "homeurl": "https://www.cashbuild.co.za/"
         },
         {
             "name1": "Nandos",
             "iconurl": "https://www.nandos.co.za/v0.0.1/assets/toolkit/images/nandos-logo.svg",
-            "card": "https://www.nandos.co.za/"
+            "homeurl": "https://www.nandos.co.za/"
         },
         {
             "name1": "CLICKS",
             "iconurl": "https://clicks.co.za/_ui/desktop/theme-blue/clicks/image/personalization/Clicks-logo.svg",
-            "card" : "https://clicks.co.za/"
+            "homeurl" : "https://clicks.co.za/"
         }
         
 
