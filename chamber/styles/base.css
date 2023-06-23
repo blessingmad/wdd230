@@ -280,6 +280,15 @@ input, textarea {
     font-family: sans-serif;
     width: 300px;
 }
+.cards {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 1em; 
+    background-color: #e9dc4d;
+}
+
 
 
 
