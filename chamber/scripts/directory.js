@@ -40,3 +40,18 @@ fetch(url)
         cards.appendChild(card)
     });
 });
+
+const gridbutton = document.querySelector('.gridBtn');
+const listgrid = document.querySelector('.listBtn');
+const show = document.querySelector('div.cards');
+
+gridbutton.addEventListener('click', () => {
+    show.classList.add('cards');
+    show.classList.remove('list');
+});
+function displayList () {
+    show.classList.add('lit');
+    show.classList.remove('cards');
+}
+
+
