@@ -1,6 +1,8 @@
 const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption"); 
+const windSpeed = document.querySelector("Wind-speed");
+const windChill = document.querySelector("Wind-chill");
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Soshanguve&units=metric&appid=ec98f94b11c44d888dd6bca93d566cd5";
 
@@ -13,6 +15,8 @@ function displayResults (weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+
+    windSpeed.innerHTML = `<strong> ${weatherData.wind.speed.toFixed[1]}</strong>`
 
 }
 

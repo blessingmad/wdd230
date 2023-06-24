@@ -12,7 +12,7 @@ header, main, footer {
 }
 header{
 
-font-family: Rock Salt;
+font-family: 'Rock Salt';
 display: flex;
 background-color: #151578;
 color:white;
@@ -265,7 +265,7 @@ form {
 }
 ul {
     list-style: none;
-    padding: 0 auto;
+    padding: 1px;
     margin: 0;
 }
 form li + li {
