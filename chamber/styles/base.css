@@ -281,13 +281,88 @@ input, textarea {
     width: 300px;
 }
 .cards {
+    display: grid;
     margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #eee;
-    border-radius: 1em; 
+
+}
+.card-container {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #786615;
+    text-align: center;
+}
+.card-container button {
+    padding:1rem;
+    font-weight: 700;
+}
+section {
+    border:1px solid rgba(0, 0, 0, 0.1) ;
+    padding: 0,5rem;
     background-color: #e9dc4d;
 }
+.grid section {
+    text-align:center ;
+}
+.grid img {
+    border: 1px solid #fff;
+    box-shadow: o o 1opx #555;
+}
+.grid section > * {
+    margin: 0.1rem;
+}
+.grid h3 {
+    font-family: 'Robotto';
+}
+.list section 
+{
+    display: grid;
+    grid-template-columns: 2fr 1 fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+
+}
+.list section > * {
+    margin: 0 1rem;
+}
+.list section img {
+    display: none;
+}
+.list section h3 {
+    font-size: 1rem;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.list section:nth-child(even){
+    background-color: #786615;
+
+}
+section h3 {
+    font-size: 1.5rem;
+}
+section p {
+    font-weight: 600;
+    font-size: smaller;
+}
+section a {
+    font-family: 'Robotto', Helvetica, sans-serif;
+    font-size: 0.85rem;
+    color: #151578;
+    letter-spacing: 1.1pt;
+}
+img {
+    height: 75px;
+    max-width: 100px;
+}
+ 
+
+
+
+
+
+
+
+
+
 
 
 

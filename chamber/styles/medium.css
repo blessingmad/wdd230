@@ -78,4 +78,8 @@ header, main, footer {
     font-family: Robboto;
     background-color: yellowgreen;
 }
+
+.list section img {
+    display: grid;
+}
 }

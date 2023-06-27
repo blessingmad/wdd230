@@ -14,19 +14,21 @@ fetch(url)
         let name1 = document.createElement('h2');
         let address = document.createElement('p')
         let phone = document.createElement('p')
-        let iconurl = document.createElement('p');
-        let homeurl = document.createElement('p');
+        let iconurl = document.createElement('img');
+        let homeurl = document.createElement('a');
 
 
 
         h2.textContent = `${contact.name1} `;
 
         name1.textContent = `Company Name: ${contact.name1}`;
-        name1.textContent = `Company Address: ${contact.address}`;
+        address.textContent = `Company Address: ${contact.address}`;
         name1.textContent = `Company Contact: ${contact.phone}`;
         iconurl.textContent = `Logo URL: ${contact.iconurl}`;
-        homeurl.textContent = `Home Page URL: ${contact.homeurl}`
-        card.setAttribute('src', contacts.card);
+        homeurl.textContent = contact.homeurl
+        homeurl.href = contact.homeurl
+        iconurl.setAttribute('src', contacts.iconurl);
+        iconurl.setAttribute('loadng', 'lazy');
        // append the section(card) with the created elements
         card.appendChild(h2);
         card.appendChild(name1);
@@ -41,8 +43,8 @@ fetch(url)
     });
 });
 
-const gridbutton = document.querySelector('.gridBtn');
-const listgrid = document.querySelector('.listBtn');
+const gridbutton = document.querySelector('.grid');
+const listgrid = document.querySelector('.list');
 const show = document.querySelector('div.cards');
 
 gridbutton.addEventListener('click', () => {
@@ -50,8 +52,8 @@ gridbutton.addEventListener('click', () => {
     show.classList.remove('list');
 });
 function displayList () {
-    show.classList.add('lit');
-    show.classList.remove('cards');
+    show.classList.add('list');
+    show.classList.remove('grid');
 }
 
 
