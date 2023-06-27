@@ -24,10 +24,10 @@ fetch(url)
         name1.textContent = `Company Name: ${contact.name1}`;
         address.textContent = `Company Address: ${contact.address}`;
         name1.textContent = `Company Contact: ${contact.phone}`;
-        iconurl.textContent = `Logo URL: ${contact.iconurl}`;
+        iconurl.textContent = `Logo URL: ${'src', contact.iconurl}`;
         homeurl.textContent = contact.homeurl
         homeurl.href = contact.homeurl
-        iconurl.setAttribute('src', contacts.iconurl);
+        iconurl.setAttribute('src', contact.iconurl);
         iconurl.setAttribute('loadng', 'lazy');
        // append the section(card) with the created elements
         card.appendChild(h2);
@@ -48,9 +48,11 @@ const listgrid = document.querySelector('.list');
 const show = document.querySelector('div.cards');
 
 gridbutton.addEventListener('click', () => {
-    show.classList.add('cards');
+    show.classList.add('grid');
     show.classList.remove('list');
 });
+
+listbutton.addEventListener('click', displayList);
 function displayList () {
     show.classList.add('list');
     show.classList.remove('grid');
