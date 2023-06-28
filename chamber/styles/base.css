@@ -382,12 +382,42 @@ img {
     padding: 10px;
     font-size: 14px;
 }
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.contact-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact-infomation {
+    margin-bottom: 20px;
+}
+.contact-label {
+    font-weight: bold;
+}
+.form-container {
+    margin-top: 20px;
 
+}
 
-
-
-
-
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-message {
+    width: 100%;
+}
+.form-submit {
+    cursor: pointer;
+}
 
 
 
