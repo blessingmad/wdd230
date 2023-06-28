@@ -97,11 +97,10 @@ main div {
     
 }
 
-.hero-img img {
-    /* background-color: red; */
-
-    height: auto;
+.hero-img img {  
+    
     width: 100%;
+    height: auto;
 }
 
 .invite {
