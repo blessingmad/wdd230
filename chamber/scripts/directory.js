@@ -16,6 +16,7 @@ fetch(url)
         let phone = document.createElement('p')
         let iconurl = document.createElement('img');
         let homeurl = document.createElement('a');
+        let membership = document.createElement('p');
 
 
 
@@ -25,6 +26,7 @@ fetch(url)
         address.textContent = `Company Address: ${contact.address}`;
         name1.textContent = `Company Contact: ${contact.phone}`;
         iconurl.textContent = `Logo URL: ${'src', contact.iconurl}`;
+        membership.textContent = `Membership: ${contact.membership}`;
         homeurl.textContent = contact.homeurl
         homeurl.href = contact.homeurl
         iconurl.setAttribute('src', contact.iconurl);
@@ -35,7 +37,8 @@ fetch(url)
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(iconurl);
-        card.appendChild(homeurl); 
+        card.appendChild(homeurl);
+        card.appendChild(membership);
         
         
     
@@ -48,8 +51,8 @@ const listgrid = document.querySelector('.list');
 const show = document.querySelector('div.cards');
 
 gridbutton.addEventListener('click', () => {
-    show.classList.add('grid');
-    show.classList.remove('list');
+    show.classList.add('list');
+    show.classList.remove('grid');
 });
 
 listbutton.addEventListener('click', displayList);

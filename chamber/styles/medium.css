@@ -78,7 +78,10 @@ header, main, footer {
     font-family: Robboto;
     background-color: yellowgreen;
 }
-
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 .list section img {
     display: grid;

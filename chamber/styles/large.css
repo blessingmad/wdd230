@@ -93,7 +93,10 @@ header, main, footer{
     background-color: yellowgreen;
 
 }
-
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .list section img {
     display: grid;
 }
