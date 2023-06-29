@@ -401,6 +401,12 @@ img {
     margin-top: 20px;
 
 }
+.banner {
+    background-color: #241578;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 .form-label {
     display: block;

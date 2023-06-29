@@ -1,26 +1,28 @@
-const input = document.getElementById("favcap");
+document.addEventListener('DOMContentLoaded', function(){
+    const chapterInput = document.getElementById('chapterInput');
+    const addChapterBtn = document.getElementById('addChapterBtn');
+    const chapterList = document.getElementById('chapterList');
 
 
-const addButton = document.getElementById("submit");
+    addChapterBtn.addEventListener('click', function(){
+        const chapterName = chapterInput.ariaValueMax.trim();
 
+        if (chapterName !== '') {
+            const li = document.createElement('li');
+            const deleteBtn = document.createElement('button');
 
-const list = document.getElementById("list");
+            li.textContent = chapterName;
+            deleteBtn.textContent = 'x';
+            deleteBtn.classList.add('deleteBtn');
 
-//add event listerner to the add chapter button
-addButton.addEventListener("click", function(){
-    const chapterText = input.ariaValueMax.trim();
+            li.appendChild(deleteBtn);
+            chapterList.appendChild(li)
 
-    if (chapterText !== "") {
-        const li = document.createElement("li");
-    // create delete button
-    const deleteButton = document.createElement("button");deleteButton.textContent = "X"
-    li.textContent = chapterText;
-
-    list.appendChild(li);
-
-    input.value = "";
-
-    input.focus();
-
+            deleteBtn.addEventListener('click', function(){
+                li.remove();
+            });
+            chapterInput.value = '';
+            chapterInput.focus();
     }
-})
+    });
+});

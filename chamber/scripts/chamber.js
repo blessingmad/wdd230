@@ -34,7 +34,13 @@ localStorage.setItem('visitCount', visitCount);
 
 visitCountsElement.textContent = `You have ${visitCount} visits ${visitCount ===1 ? '' : ''}.`;
 
+const today = new Date();
+const day = today.getDay();
 
+if (day === 1 || day === 2) {
+	const bannerElement = document.getElementById('banner');
+	bannerElement.innerHtml = 'Come join us for the chamber meet and greeet at 7:00p.m '
+};
 
 
 
