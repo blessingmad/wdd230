@@ -357,18 +357,18 @@ section a {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
 }
-#item {
+#item, #item1, #item2, #item3, #item4{
     position: relative;
 
 }
-#item img {
+#item,#item1, #item2, #item3, #item4 img {
     width: 100%;
     height: auto;
     transition: transform 0,3s;
 }
-#item:hover img {
+#item#item1, #item2, #item3, #item4:hover img {
     transform: scale(1.1);
-    transition: 0,3s;
+
 }
 #image-description {
     background-color: #555;
