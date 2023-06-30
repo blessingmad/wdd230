@@ -297,7 +297,7 @@ input, textarea {
 }
 section {
     border:1px solid rgba(0, 0, 0, 0.1) ;
-    padding: 0,5rem;
+    padding: 0.5rem;
     background-color: #e9dc4d;
 }
 .grid section {
@@ -305,7 +305,7 @@ section {
 }
 .grid img {
     border: 1px solid #fff;
-    box-shadow: o o 1opx #555;
+    box-shadow: 0 0 10px #555;
 }
 .grid section > * {
     margin: 0.1rem;
@@ -316,7 +316,7 @@ section {
 .list section 
 {
     display: grid;
-    grid-template-columns: 2fr 1 fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     margin: 0;
     padding: 0.25rem;
 
@@ -348,10 +348,7 @@ section a {
     color: #151578;
     letter-spacing: 1.1pt;
 }
-img {
-    
-    max-width: 100px;
-}
+
  
 /* '''''''''''''''''''
 ............discover page */
@@ -371,6 +368,7 @@ img {
 }
 #item:hover img {
     transform: scale(1.1);
+    transition: 0,3s;
 }
 #image-description {
     background-color: #555;

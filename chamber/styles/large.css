@@ -103,6 +103,7 @@ header, main, footer{
 }
 
 .home-msg {
+    font-size: large;
     position: absolute;
     top: 2px;
 }
