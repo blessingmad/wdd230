@@ -19,12 +19,13 @@ header, main, footer{
 
 }
 .hero-img {
-    background-color: red;
+    position: relative;
     grid-column: 2/4 ;
-    grid-row: 1/3;
-    
-   
-    
+    grid-row: 1/3;   
+}
+.hero-img img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .weather-card {
@@ -100,6 +101,17 @@ header, main, footer{
 .list section img {
     display: grid;
 }
+
+.home-msg {
+    position: absolute;
+    top: 2px;
+}
+.invite {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+
  }
 
 
