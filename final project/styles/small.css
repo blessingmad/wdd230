@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dosis:wght@300&display=swap');
+*{
+    margin: 5px;
+}
+header, main, footer {
+    max-width: 400px;
+}
+header {
+    font-family:'Barlow';
+    display: inline;
+    color: white;
+    padding:5px;
+    background-color:#001011 ;
+    
+
+}
+.navigation li {
+    display: none;
+    flex: 1 1 100%;
+
+}
+.navigation li a {
+    display: block;
+}
+a {
+    color: white;
+}
+main{
+    font-family:'Dosis';
+    font-weight: 500;
+    font-size: medium;
+    background-color:#B2DB3F ;
+}
+.primary {
+    background-color: #001011;
+    color: white;
+}
+.secondary {
+    background-color: #FFFFFC;
+    color:#001011;
+}
+.accent1 {
+    background-color: #B2DB3F;
+}
+.accent2 {
+    background-color: white;
+}
+footer{
+    background-color: black;
+    padding: 8px;
+    color: white;
+    display: block;
+}

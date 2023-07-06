@@ -4,29 +4,92 @@
     <meta charset="UTF-8">
     <meta name="dicription" content="Projet for the presenting the availability of fruits and fruits juice along the Los Angelas costal area">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful foods site exists to better help users find what fruits are offered and the available
+    fruit juice as well.">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>Final Project</title>
+    <title>Bountiful Foods</title>
 </head>
 <body>
     <header>
-        <div></div>
-        <div></div>
-        <div></div>
+       <div class="header">
+            <div class="logo">
+                <img class="logo-img" src="images/logo.png" alt="Logo image">
+
+            </div>
+            <div class="heading">
+                <h1> Bountiful Foods</h1>
+            </div>
+            <nav>
+                <button id="btn">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+            <div id="time"></div>
+       </div>
     </header>
     <main>
-        <div></div>
-        <div>
-            <img src="images/fruit001.jpeg" alt="Image 1">
-            <img src="images/fruit01.webp" alt="Image 2">
-            <img src="images/fruit02.jpeg" alt="Image 3">
-            <img src="images/fruit03.jpeg" alt="Image 4">
+>       <div class="container">
+            <div class="hero">
+                <picture>
+                    <img src="images/strawmix.jpeg" width="600" height="300" alt="Hero Image">
+                </picture>
+                <h2 class="welcome">Welcome To Bountiful Foods</h2>
+                <a class="learn" href="aboutus.html">Learn</a>
+
+            </div>
+            <div class="weather">
+                <h2>Weather Focus</h2>
+                <p>The current weather of Carsberg is : <span id="current-temperature"></span>&deg;C</p>
+                <figure>
+                    <figcaption></figcaption>
+                    <img src=" https://openweathermap.org/img/w/" alt="Weather icon" id="weather-icon"/>
+                    
+                </figure>
+            </div>
+            <div class="promotions">
+                <h1>Promotions</h1>
+                <div class="promo1">
+                    <h2>Oranges</h2>
+                    <img src="images/orange.jpeg" width="100" height="130" alt="Image of Oranges">
+                    <p>Its the peak season for the oranges.</p>
+                </div>
+                <div class="promo2">
+                    <h2>Refresh</h2>
+                    <img src="images/mix.jpeg" width="100" height="130" alt="Image of strewberry juice">
+                    <p>Taste the rich flavour from our new juice maker Sir Crook!!</p>
+
+                </div>
+                <div class="promo3">
+                    <h2>Fruit Eating Competition</h2>
+                    <img src="images/lemon.webp" width="100" height="130" alt="Lemon Juice">
+
+                </div>
+
+            </div>
         </div>
-        <div></div>
     </main>
     <footer>
-        <div></div>
+        <p></p> &copy; 2023 | Bountiful Foods | Blessing Madhuma | Last Updated: <span id="lastModified"></span> 
+        <a class="location" href=""></a>
+        <p><a href="site-plan.html"></a>Site Plan</p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
+    <script src="scripts/final.js"></script>
 </body>
 </html>
