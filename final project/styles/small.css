@@ -7,7 +7,7 @@ header, main, footer {
 }
 header {
     font-family:'Barlow';
-    display: inline;
+
     color: white;
     padding:5px;
     background-color:#001011 ;
@@ -45,6 +45,35 @@ main{
 .accent2 {
     background-color: white;
 }
+.sitemap > div {
+    text-align: center;
+}
+.msg-home {
+    grid-area: home;
+    background-color: #001011;
+    color: white;
+}
+.msg-page1 {
+    grid-area: page1;
+    background-color: #001011;
+    color: white;
+
+}
+.msg-page2 {
+    grid-area: page2;
+    background-color: #001011;
+    color: white;
+}
+.top {
+    grid-area: top;
+}
+.left {
+    grid-area: left;
+}
+.right {
+    grid-area: right;
+}
+
 footer{
     background-color: black;
     padding: 8px;
