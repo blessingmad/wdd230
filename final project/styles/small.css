@@ -99,5 +99,20 @@ footer{
     display: block;
 }
 .container img {
-    max-width: 400px;
+    max-width: 320px;
+}
+.hero {
+    border: 1px solid #eee;
+    grid-row: 2/4;
+    padding: 5px;
+}
+.weather {
+    border: 1px solid #eee;
+    grid-row: 3/4;
+    padding: 5px;
+}
+.promotions {
+    border: 1px solid #eee;
+    grid-row: 3/3;
+    padding: 5px;
 }
