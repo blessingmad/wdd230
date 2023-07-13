@@ -21,9 +21,27 @@ header {
 }
 .navigation li a {
     display: block;
-}
-a {
+    text-align: center;
+    text-decoration: none;
     color: white;
+}
+.navigation li a:hover {
+    background-color: #B2DB3F;
+}
+.navigation.responsive li {
+    display: block;
+    width: 100%;
+}
+.navigation.responsive li a {
+    display: block;
+}
+#btn {
+    list-style: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: medium;
+    padding: .5rem;
 }
 main{
     font-family:'Dosis';
@@ -79,4 +97,7 @@ footer{
     padding: 8px;
     color: white;
     display: block;
+}
+.container img {
+    max-width: 400px;
 }

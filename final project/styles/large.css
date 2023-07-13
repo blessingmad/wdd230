@@ -5,6 +5,15 @@
     header, main, footer {
         max-width: 100%;
     }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    
+    }
+    .navigation {
+        padding: 10px;
+    }
+    
     footer {
         display: flex;
         padding: 25px 40px;
