@@ -49,4 +49,7 @@
     .large {
         text-align: center;
     }
+    form {
+        max-width: 100%;
+    }
 }

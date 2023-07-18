@@ -14,6 +14,13 @@ header {
     
 
 }
+#body {
+    color: white;
+    background-color: black;
+}
+#location{
+    color: white;
+}
 .navigation li {
     display: none;
     flex: 1 1 100%;
