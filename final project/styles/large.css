@@ -7,7 +7,9 @@
         max-width: 100%;
         
     }
-    
+    #flowers{
+        width:400px ;
+    }
     .navigation li {
         display: inline-block;
         flex: 1 1 auto;
