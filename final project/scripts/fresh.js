@@ -1,10 +1,10 @@
 const fruitUrl = "https://blessingmad.github.io/wdd230/final/scripts/data.json"
-function populateSelectElement(selectId, options) {
-    const select = document.getElementById(selectId);
+function populateSelectElement() {
+    const select = document.getElementById('drink-form');
 
-    for (const option of fruits) {
+    for (const fruits of fruits) {
         const optionElement = document.createElement('option');
-        optionElement.value = option.fruit;
+        optionElement.value = fruits.fruit;
         optionElement.textContent = option.fruit;
         select.appendChild(optionElement);
     }
