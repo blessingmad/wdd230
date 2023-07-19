@@ -4,10 +4,10 @@
 }
 header, main, footer {
     max-width: 400px;
+    margin: 0 auto;
 }
 header {
     font-family:'Barlow';
-
     color: white;
     padding:5px;
     background-color:#001011 ;
@@ -41,6 +41,15 @@ header {
 }
 .navigation.responsive li a {
     display: block;
+}
+.logo {
+    display: inline-flex;
+   
+    
+}
+#heading {
+    
+    color: aqua;
 }
 #btn {
     list-style: none;
@@ -108,6 +117,7 @@ footer{
 .container img {
     max-width: 320px;
 }
+
 .hero {
     border: 1px solid #eee;
     grid-row: 2/4;
@@ -117,6 +127,7 @@ footer{
     border: 1px solid #eee;
     grid-row: 3/4;
     padding: 5px;
+
 }
 .promotions {
     border: 1px solid #eee;
@@ -145,4 +156,33 @@ margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
   
+}
+#desc {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+#weather-card, #info, #area {
+    border-style: groove;
+   
+}
+.container {
+    border-radius: 20px;
+}
+#time {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: #B2DB3F;
+    border-radius: 20px;
+    color: #001011;
+    text-align: center;
+}
+#weather-card {
+    padding: 5px;
+}
+.welcome {
+    font-size: medium;
+
+}
+.learn {
+    border-radius: 40px;
 }

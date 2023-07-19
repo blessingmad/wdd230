@@ -17,51 +17,57 @@
        <div class="header">
             <div class="logo">
                 <img class="logo-img" src="images/logo.png" alt="Logo image">
-
+                <h1 id="heading">Bountiful Foods</h1>
             </div>
-            <div class="heading">
-                <h1> Bountiful Foods</h1>
-            </div>
+            
             <nav>
                 <button id="btn">&#9776;</button>
                 <ul class="navigation">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="fresh.html">Fresh</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
+
+                     <div id="time">
+                    <time></time>
+                </div>
                 </ul>
             </nav>
-            <div id="time"></div>
+            
        </div>
     </header>
     <main>
+       
        <div class="container">
             <div class="hero">
                 <picture>
                     <img id="big" src="images/strawmix.jpeg" width="600" height="300" alt="Hero Image" loading="lazy">
                 </picture>
                 <h2 class="welcome">Welcome To Bountiful Foods</h2>
-                <a class="learn" href="aboutus.html">Learn</a>
+                <a class="learn" href="fresh.html">Book Now</a>
 
             </div>
             <div class="weather">
+                <div id="weather-card">
                 <h2>Carlsbad Weather</h2>
                 <h3>Current Temperature: <span id="current-temp"></span>&deg;C</h3>
-                    
-                
-                
-                <figure>
+                <h3>Humidity: <span id="humidity"></span>%</h3>
+                    <h3>Feels Like: <span id="wind-chill"></span></h3>
+                    <h3>3-Day Temperature Forecast: <span id="forecast"></span></h3>
+                <figure id="desc">
                     <figcaption></figcaption>
-                    <img src=" https://openweathermap.org/img/w/" alt="Weather icon" id="weather-icon" loading="lazy"/>
+                    <img src=" https://openweathermap.org/img/w/" alt="Weather icon" id="weather-icon" />
                     
                 </figure>
-                    <h3>Humidity: <span id="humidity"></span></h3>
-                    <h3>2-Day Temperature Forecast: <span id="forecast"></span></h3>
+                </div>    
                 <div id="inquries">
+                    <div id="info">
                     <h2>Contact Us for Inquries!</h2>
                     <p>Office Phone: +1 054 066 001</p>
                     <p>Email: bountiful@gmail.com</p>
+                    </div>
                 </div>
                 <div class="summary">
+                    <div id="area">
                     <h2>Summary Information</h2>
                     <h3>Other Businesses Nearby:</h3>
                     <h3>The Flower Fields</h3>
@@ -73,6 +79,7 @@
                     </p>
                     <h3>Park Hyatt Aviara Resort, Golf Club & Spa</h3>
                     <p>Best ratings at all seasons <a href="https://www.google.com/maps/place/Park+Hyatt+Aviara+Resort,+Golf+Club+%26+Spa/@33.0994825,-117.2960498,15z/data=!3m1!5s0x80dc0cb4772f571b:0xc67344f9afa98af6!4m20!1m10!3m9!1s0x80dc0cb4a911d5a5:0x2b5499f19232e94a!2sPark+Hyatt+Aviara+Resort,+Golf+Club+%26+Spa!5m2!4m1!1i2!8m2!3d33.0994829!4d-117.2857501!16s%2Fm%2F02pm338!3m8!1s0x80dc0cb4a911d5a5:0x2b5499f19232e94a!5m2!4m1!1i2!8m2!3d33.0994829!4d-117.2857501!16s%2Fm%2F02pm338?entry=ttu">Aviara San Diego.</a>Enjoy your vacation!</p>
+                    </div>
                 </div>
 
             </div>
